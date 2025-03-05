@@ -49,7 +49,7 @@ nav a:last-of-type {
 /*LUPA Y SEARCH BAR*/
 /*style the container*/
 .top-bar .search-container {
-  float: right; /* Lo posiciona a la derecha */
+  float: left; /* Lo posiciona a la derecha */
   margin-top: 4px; /* Ajusta la alineación vertical */
 }
 
@@ -79,4 +79,10 @@ nav a:last-of-type {
   /* Cambiar el color del borde cuando el input está enfocado */
 .top-bar input[type="text"]:focus {
     border: 4px solid rgb(171, 213, 225); /* Borde naranja al hacer clic */ 
-  }  
+  } 
+  
+  /*ESTILIZAR EL LOGIN BUTTON*/
+
+  .login-button{
+    float: left;
+  }
