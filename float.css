@@ -84,5 +84,6 @@ nav a:last-of-type {
   /*ESTILIZAR EL LOGIN BUTTON*/
 
   .login-button{
-    float: left;
+    border:none;
+    cursor: pointer;
   }
