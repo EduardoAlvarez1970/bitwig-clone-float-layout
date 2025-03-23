@@ -122,10 +122,14 @@ nav a{
   .top-bar a.icon {
     float: right;
     display: block;
-    margin-right: 70px;
+    margin-right: 40px;
     font-size: 25px;
   }
   .top-bar .search-container {display: none;}
+  
+  .navbar-brand {
+    margin-left: auto;
+  }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.
