@@ -37,7 +37,7 @@ nav a{
     padding: 14px 16px; /*ESPACIADO A LOS BORDES*/
     margin-top: 5px;
 }
-nav a:last-of-type {
+.buy {
     color: rgb(255, 145, 0); /* Cambia el color del último <a> */
   }
   
@@ -140,4 +140,7 @@ nav a:last-of-type {
     display: block;
     text-align: left;
   }
+}
+#icon {
+  color: black;
 }
