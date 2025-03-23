@@ -122,6 +122,7 @@ nav a{
   .top-bar a.icon {
     float: right;
     display: block;
+    margin-right: 70px;
   }
   .top-bar .search-container {display: none;}
 }
