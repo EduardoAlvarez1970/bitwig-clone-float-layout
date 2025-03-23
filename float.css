@@ -69,13 +69,12 @@ nav a:last-of-type {
   .top-bar input[type=text] {
     float: left; /* Alinea el input a la derecha del botón */
     padding: 6px 10px;
-    border: none;
     margin-top: 10px;
     font-size: 17px;
     background-color: #e0dbdbb3;
     outline: none; /* Elimina el borde de enfoque predeterminado */
     width: 180px; /* Ajusta el ancho según lo necesites */
-    border: 3px solid #e0dbdbb3; /* Borde naranja al hacer clic */
+    border: 3px solid #e0dbdbb3; /* Borde del color del fondo para que no se vea*/
     padding: 9px;
   }
   /* Cambiar el color del borde cuando el input está enfocado */
