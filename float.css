@@ -83,13 +83,9 @@ nav a:last-of-type {
   } 
   
   /* LOGIN BUTTON */
-.login-container {
-  float: left; /* Lo posiciona a la derecha */
-  margin-left: 20px; /* Separación del buscador */
-}
-
 /* Estilo del botón de login */
 .login-button {
+  float: left;
   cursor: pointer;
   background-color: #e0dbdbb3;
 }
