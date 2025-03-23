@@ -69,17 +69,19 @@ nav a:last-of-type {
   .top-bar input[type=text] {
     float: left; /* Alinea el input a la derecha del botón */
     padding: 6px 10px;
-    border: 4px solid #e0dbdbb3;
-    margin-top: 13px;
-    font-size: 15px;
+    border: none;
+    margin-top: 10px;
+    font-size: 17px;
     background-color: #e0dbdbb3;
     outline: none; /* Elimina el borde de enfoque predeterminado */
-    border-radius: 0 5px 5px 0; /* Redondear solo las esquinas derechas */
     width: 180px; /* Ajusta el ancho según lo necesites */
+    border: 3px solid #e0dbdbb3; /* Borde naranja al hacer clic */
+    padding: 9px;
   }
   /* Cambiar el color del borde cuando el input está enfocado */
 .top-bar input[type="text"]:focus {
-    border: 4px solid rgb(171, 213, 225); /* Borde naranja al hacer clic */ 
+    border: 3px solid rgb(171, 213, 225); /* Borde naranja al hacer clic */ 
+    border-radius: 0 5px 5px 0; /* Redondear solo las esquinas derechas */
   } 
   
   /* LOGIN BUTTON */
