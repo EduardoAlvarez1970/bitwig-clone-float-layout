@@ -73,7 +73,7 @@ nav a{
   font-size: 17px;
   border: none;
   cursor: pointer;
-  background-color: #e0dbdbb3;
+  background-color: transparent;
 }  
 
 /* Style the search box inside the navigation bar */
@@ -82,10 +82,10 @@ nav a{
     padding: 6px 10px;
     margin-top: 10px;
     font-size: 17px;
-    background-color: #e0dbdbb3;
+    background-color: transparent;
     outline: none; /* Elimina el borde de enfoque predeterminado */
     width: 180px; /* Ajusta el ancho según lo necesites */
-    border: 3px solid #e0dbdbb3; /* Borde del color del fondo para que no se vea*/
+    border: 3px solid transparent; /* Borde del color del fondo para que no se vea*/
     padding: 9px;
   }
   /* Cambiar el color del borde cuando el input está enfocado */
@@ -99,7 +99,7 @@ nav a{
 .login-button {
   float: left;
   cursor: pointer;
-  background-color: #e0dbdbb3;
+  background-color: transparent;
   border: none;
   margin-top: 14px;
   margin-left: 24px;
@@ -186,13 +186,12 @@ nav a{
 /* MAIN */
 
 main {
-  margin-top: 55px; /* Ajusta este valor según la altura del nav */
+  margin-top: 75px; /* Ajusta este valor según la altura del nav */
   padding: 15px;
   background-color: #f7f7f7;
   color: #000000;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
-  
 }
 
 
@@ -211,14 +210,11 @@ main {
   font-weight: bold;
   line-height: 1.2;
   letter-spacing: 1px;
-
-
 }
 .bitwig-studio p {
   line-height: 1.2;
   letter-spacing: 1.5px;
   font-weight: bold;
-  
 }
 .bitwig-studio img {
   max-width: 85%; /* La imagen nunca será más ancha que su contenedor */
@@ -240,7 +236,12 @@ main {
   line-height: 1.5;
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 20px;
-  
+}
+
+.try-buy::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 
