@@ -225,3 +225,23 @@ main {
   height: auto; /* Mantiene la proporción */
   margin-top: 50px;
 }
+.try-buy ul {
+  float: left;
+  width: 50%; /* three boxes (use 25% for four, and 50% for two, etc) */
+  padding: 50px; /* if you want space between the images */
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.try-buy li {
+  margin-top: 30px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 20px;
+  
+}
+
+
+
