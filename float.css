@@ -12,12 +12,13 @@ body{
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: #d1cacab3;
+    background-color: #e6e6e6ff;
     overflow: hidden;
     padding: 5px;
     height: 75px; /* Ajusta según el tamaño de tu barra */
     line-height: 60px; /* Coincide con la altura del nav */
     margin-bottom: 0;
+    z-index: 1000; /* Para que quede por encima del contenido */
 }
 
 .top-bar::after {
