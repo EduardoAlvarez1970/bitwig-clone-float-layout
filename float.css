@@ -220,3 +220,8 @@ main {
   font-weight: bold;
   
 }
+.bitwig-studio img {
+  max-width: 85%; /* La imagen nunca será más ancha que su contenedor */
+  height: auto; /* Mantiene la proporción */
+  margin-top: 50px;
+}
