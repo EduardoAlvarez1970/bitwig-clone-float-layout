@@ -133,9 +133,9 @@ nav a{
   .top-bar a.icon {
     float: right;
     display: block;
-    right: 0;
-    top: 0;
     font-size: 25px;
+    right: 0;
+    top: 5px;
   }
   .navbar-brand {
     margin-left: auto;
@@ -168,8 +168,8 @@ nav a{
   }
   .top-bar.responsive .icon {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 5px;
+    top: 5px;
   }
 }
 
