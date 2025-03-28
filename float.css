@@ -264,6 +264,11 @@ main {
   padding: 10px 50px;
   margin-right: 20px;
   margin-top: 30px;
+  cursor: pointer;
+}
+.tryButton:hover {
+  background-color: black;
+  color:#f7f7f7;
 }
 
 .buyButton {
@@ -277,6 +282,11 @@ main {
   padding: 10px 50px;
   margin-left: 20px;
   margin-top: 30px;
+  cursor: pointer;
+}
+.buyButton:hover {
+  background-color: #ff5a00;
+  color:#f7f7f7;
 }
 
 
