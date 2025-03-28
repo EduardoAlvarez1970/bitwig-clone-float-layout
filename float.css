@@ -360,7 +360,7 @@ main {
 
 .hardware-integration .text-container {
   float: left;
-  margin-top: 80px;
+  margin-top: 30px;
   width: 475px;
   margin-left: 200px;
 }
@@ -381,4 +381,25 @@ main {
   float: right;
   width: 50%;
   height: auto;
+}
+.learnMore {
+  background-color: #f7f7f7;
+  color: black; 
+  border: 2px solid black;
+  font-weight: 400 !important;
+  line-height: 1.5;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 20px;
+  padding: 8px 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.learnMore:hover {
+  color: #f7f7f7;
+  background-color: black;
+}
+
+.spring-forward {
+  margin-top: 40px;
 }
