@@ -403,3 +403,22 @@ main {
 .spring-forward {
   margin-top: 40px;
 }
+
+.namm {
+  text-align: center;
+  align-items: center;
+}
+
+.namm img {
+  width: 35%;
+  height: auto;
+  margin-top: 40px;
+}
+
+.namm a :first-child{
+  margin-right: 20px
+}
+
+.namm a :last-child{
+  margin-left: 20px
+}
