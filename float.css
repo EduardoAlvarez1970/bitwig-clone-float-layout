@@ -328,6 +328,7 @@ main {
   margin-top: 80px;
 }
 
+
 .modulation-heaven img {
   float: left;
   width: 50%;
@@ -340,7 +341,6 @@ main {
   width: 400px;
   line-height: 1.8;
   letter-spacing: 1.5px;
-  
 }
 
 .modulation-heaven p {
@@ -353,21 +353,26 @@ main {
 
 
 .hardware-integration {
-  margin-top: 180px;
+  display: inline-block;
+  margin-top: 80px;
+  overflow: hidden; /* Para contener los floats y evitar colapsos */
+}
+
+.hardware-integration .text-container {
+  float: left;
+  margin-top: 80px;
+  width: 475px;
+  margin-left: 200px;
 }
 
 .hardware-integration h2 {
-  clear: left;
-  margin-left: 200px;
-  width: 475px;
+  width: 100%;
   line-height: 1.8;
   letter-spacing: 1.5px;
 }
 
 .hardware-integration p {
-  float: left;
-  margin-left: 200px;
-  width: 475px;
+  width: 100%;
   line-height: 1.8;
   letter-spacing: 1.5px;
 }
