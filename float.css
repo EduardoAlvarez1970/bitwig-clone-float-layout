@@ -228,7 +228,7 @@ main {
   padding: 50px; /* if you want space between the images */
   text-align: left;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.2rem;
 }
 
 .try-buy li {
@@ -244,6 +244,15 @@ main {
   display: block;
   clear: both;
 }
+
+.centered-p {
+  margin-top: 0;
+  font-weight: 400 !important;
+  line-height: 1.5;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 20px;
+}
+
 
 
 
