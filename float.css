@@ -327,6 +327,7 @@ main {
 .modulation-heaven {
   margin-top: 80px;
 }
+
 .modulation-heaven img {
   float: left;
   width: 50%;
@@ -351,4 +352,28 @@ main {
 }
 
 
+.hardware-integration {
+  margin-top: 180px;
+}
 
+.hardware-integration h2 {
+  clear: left;
+  margin-left: 200px;
+  width: 475px;
+  line-height: 1.8;
+  letter-spacing: 1.5px;
+}
+
+.hardware-integration p {
+  float: left;
+  margin-left: 200px;
+  width: 475px;
+  line-height: 1.8;
+  letter-spacing: 1.5px;
+}
+
+.hardware-integration img {
+  float: right;
+  width: 50%;
+  height: auto;
+}
